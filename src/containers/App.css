@@ -1,0 +1,12 @@
+.App {
+  width: 500px;
+  height: 500px;
+  overflow: scroll;
+  border: solid 2px black;
+}
+
+.DragItem {
+  width: 100%;
+  border: solid 1px black;
+  padding: 30px;
+}

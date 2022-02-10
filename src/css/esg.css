@@ -1,0 +1,196 @@
+.bookmark-list-rmvscroll {
+  padding: 0px;
+  padding-right: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 15px;
+}
+
+.bookmark-list {
+  padding: 0px;
+  padding-right: 10px;
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 15px;
+  overflow-y: scroll;
+  height: 420px;
+  width: 100%;
+}
+.list-item-folder-dropdown {
+  overflow-y: scroll;
+}
+.folder-list {
+  overflow-y: scroll;
+  height: 320px;
+  width: 100%;
+}
+
+.bookmark-item {
+  text-decoration: none !important;
+}
+@media screen and (max-width: 700px) {
+  .bookmark-list {
+    padding: 0px;
+    padding-right: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 15px;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+  }
+
+  .folder-list {
+    overflow-y: scroll;
+    height: 200px;
+    width: 100%;
+  }
+
+  .modal-content {
+    width: 80% !important;
+  }
+}
+
+.bookmark-item {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 20fr 1fr;
+  font-size: 13px;
+  grid-gap: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 1px solid #0b5aa2;
+}
+@keyframes icon {
+  0%,
+  100% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(3px);
+  }
+}
+.item {
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 50fr 0fr;
+  font-size: 13px;
+  grid-gap: 10px;
+
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.foldername-single {
+  text-align: center;
+  padding: 10px;
+}
+
+.backbutton {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50fr 0fr;
+  font-size: 13px;
+  grid-gap: 10px;
+  border: 1px solid #0b5aa2;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #0b5aa2;
+  color: white;
+}
+.backbutton:hover {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 50fr 0fr;
+  font-size: 13px;
+  grid-gap: 10px;
+  border: 1px solid #0b5aa2;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  color: #0b5aa2;
+}
+
+.bookmark-item:hover {
+  border-radius: 15px;
+  border: 1px solid #0b5aa2;
+  background-color: #0b5aa2;
+  color: white;
+}
+
+.bookmark-item i {
+  align-self: center;
+  font-size: 15px;
+  color: #0b5aa2;
+  font-weight: bold;
+  animation: icon 1.5s infinite forwards;
+}
+.item i {
+  align-self: center;
+  animation: icon 1.5s infinite forwards;
+}
+
+.bookmark-item:hover i {
+  color: white;
+}
+
+.list-btn {
+  border-radius: 15px;
+}
+
+.createFolder:hover {
+  background-color: lightgray;
+}
+
+.modal-content {
+  width: 40%;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.list-item {
+  color: white !important;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: black !important;
+}
+
+.ohid {
+  overflow: hidden;
+}
+
+.draggable {
+  touch-action: none;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+  width: 22px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}

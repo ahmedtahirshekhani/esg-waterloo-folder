@@ -1,0 +1,54 @@
+{
+  "name": "esgwaterloo",
+  "version": "0.1.0",
+  "homepage": "https://esg-reporting.uwaterloo.ca/foldersystem",
+  "private": true,
+  "dependencies": {
+    "@dnd-kit/core": "^4.0.1",
+    "@dnd-kit/modifiers": "^4.0.0",
+    "@dnd-kit/sortable": "^5.0.0",
+    "@dnd-kit/utilities": "^3.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.22.0",
+    "bootstrap": "^5.1.1",
+    "draggerjs": "^0.1.4",
+    "react": "^17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.6.4",
+    "react-dnd": "^14.0.4",
+    "react-dnd-html5-backend": "^14.0.2",
+    "react-dnd-scrollzone": "^5.0.0",
+    "react-dom": "^17.0.2",
+    "react-indiana-drag-scroll": "^2.1.0",
+    "react-onclickoutside": "^6.12.0",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
